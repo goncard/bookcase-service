@@ -1,7 +1,0 @@
-quarkus:
-  datasource:
-    username: admin
-    password: admin1234
-    jdbc:
-      url: jdbc:postgresql://localhost:5432/bookcase_db
-      max-size: 16
