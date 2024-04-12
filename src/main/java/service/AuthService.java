@@ -15,7 +15,7 @@ import java.util.Optional;
 @ApplicationScoped
 public class AuthService {
 
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     @Inject
     public AuthService(final UserRepository userRepository) {
