@@ -1,6 +1,5 @@
 package infrastructure.database.entity;
 
-import jakarta.annotation.Nonnull;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
