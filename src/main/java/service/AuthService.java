@@ -10,8 +10,6 @@ import jakarta.ws.rs.NotFoundException;
 import util.TokenUtils;
 import io.quarkus.elytron.security.common.BcryptUtil;
 
-import java.util.Optional;
-
 @ApplicationScoped
 public class AuthService {
 
